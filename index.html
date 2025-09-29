@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>practise website part 1</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#">
+        <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="10" fill="#2563eb"></circle>
+          <text x="12" y="16" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="10" fill="#fff">L</text>
+        </svg>
+        <span class="brand-text">Lendo<span class="brand-dot">.</span></span>
+      </a>
+      <input id="menu-toggle" class="menu-toggle" type="checkbox" aria-label="Open menu">
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a class="btn btn-ghost" href="#">Sign in</a>
+        <a class="btn btn-primary" href="#">Get started</a>
+      </div>
+
+      <label for="menu-toggle" class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1>Beautiful reading experiences for creators</h1>
+        <p class="lead">Write, publish and grow your audience with a modern, fast and minimal platform made for creators. Focus on words — we handle the rest.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary btn-lg">Try for free</a>
+          <a href="#" class="btn btn-ghost">Learn more</a>
+        </div>
+
+        <ul class="key-stats">
+          <li><strong>250K+</strong><span>Readers</span></li>
+          <li><strong>12K+</strong><span>Writers</span></li>
+          <li><strong>99.9%</strong><span>Uptime</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-visual">
+        <div class="device">
+          <img src="images/hero-section.png" alt="App mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section features">
+    <div class="wrap section-head">
+      <h2>Features that help you write better</h2>
+      <p class="muted">A toolkit focused on speed, accessibility and effortless publishing.</p>
+    </div>
+
+    <div class="wrap grid grid-4">
+      <article class="card feature">
+        <div class="icon">✍️</div>
+        <h3>Distraction-free editor</h3>
+        <p>Clean editor with keyboard-first shortcuts and instant previews.</p>
+      </article>
+
+      <article class="card feature">
+        <div class="icon">⚡</div>
+        <h3>Fast publishing</h3>
+        <p>One-click publish with SEO tools and social previews built in.</p>
+      </article>
+
+      <article class="card feature">
+        <div class="icon">🔒</div>
+        <h3>Secure hosting</h3>
+        <p>Automatic backups, HTTPS and secure storage — worry-free hosting.</p>
+      </article>
+
+      <article class="card feature">
+        <div class="icon">📈</div>
+        <h3>Analytics</h3>
+        <p>Actionable metrics to help you grow and retain readers.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="how" class="section how">
+    <div class="wrap how-grid">
+      <div class="how-media">
+        <img src="images/how its work.png" alt="How it works">
+      </div>
+      <div class="how-copy">
+        <h2>Publish in seconds — reach readers instantly</h2>
+        <p class="muted">Write, format and publish without setup. Powerful sharing, native SEO and instant previews let your content travel further faster.</p>
+
+        <ol class="steps">
+          <li><strong>Write</strong><span>Start with a blank document and draft freely.</span></li>
+          <li><strong>Polish</strong><span>Format, add images and meta data.</span></li>
+          <li><strong>Publish</strong><span>Push live and share your story with the world.</span></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section pricing">
+    <div class="wrap section-head">
+      <h2>Simple pricing</h2>
+      <p class="muted">No surprises. Pick the plan that fits you.</p>
+    </div>
+
+    <div class="wrap grid grid-3">
+      <div class="card plan">
+        <h3>Free</h3>
+        <p class="price"><span class="amount">$0</span><span class="period">/mo</span></p>
+        <ul class="features-list">
+          <li>Public posts</li>
+          <li>Basic analytics</li>
+          <li>Email support</li>
+        </ul>
+        <a class="btn btn-outline" href="#">Get started</a>
+      </div>
+
+      <div class="card plan featured">
+        <div class="ribbon">Popular</div>
+        <h3>Pro</h3>
+        <p class="price"><span class="amount">$9</span><span class="period">/mo</span></p>
+        <ul class="features-list">
+          <li>Private posts</li>
+          <li>Advanced analytics</li>
+          <li>Priority support</li>
+        </ul>
+        <a class="btn btn-primary" href="#">Start trial</a>
+      </div>
+
+      <div class="card plan">
+        <h3>Team</h3>
+        <p class="price"><span class="amount">$29</span><span class="period">/mo</span></p>
+        <ul class="features-list">
+          <li>Multiple authors</li>
+          <li>Team permissions</li>
+          <li>Dedicated support</li>
+        </ul>
+        <a class="btn btn-outline" href="#">Contact sales</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="section blog">
+    <div class="wrap section-head">
+      <h2>From our blog</h2>
+      <p class="muted">Stories on writing, growth and creator tips.</p>
+    </div>
+
+    <div class="wrap grid grid-3">
+      <article class="card post">
+        <img src="images/blog 1.png" alt="Post 1">
+        <div class="post-body">
+          <h3>How to build an audience in 2025</h3>
+          <p class="muted">Simple strategies to grow your readership steadily.</p>
+          <a href="#" class="read-more">Read more →</a>
+        </div>
+      </article>
+
+      <article class="card post">
+        <img src="images/blog 2.png" alt="Post 2">
+        <div class="post-body">
+          <h3>Writing habits of successful creators</h3>
+          <p class="muted">Daily routines that help authors produce consistent work.</p>
+          <a href="#" class="read-more">Read more →</a>
+        </div>
+      </article>
+
+      <article class="card post">
+        <img src="images/blog 3.png" alt="Post 3">
+        <div class="post-body">
+          <h3>Monetize your writing</h3>
+          <p class="muted">Practical ways to make money from your content.</p>
+          <a href="#" class="read-more">Read more →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section cta">
+    <div class="wrap cta-grid">
+      <div>
+        <h2>Ready to join Lendo?</h2>
+        <p class="muted">Start your free trial and reach readers all over the world.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="#" class="btn btn-outline">Contact sales</a>
+        <a href="#" class="btn btn-primary">Create account — it's free</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <svg width="32" height="32" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#2563eb"></circle><text x="12" y="16" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="10" fill="#fff">L</text></svg>
+        <div class="brand-meta">
+          <strong>Lendo</strong>
+          <small class="muted">Simple publishing · 2025</small>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Support</a>
+      </div>
+
+      <div class="social muted">© 2025 Lendo — All rights reserved</div>
+    </div>
+  </footer>
+
+</body>
+</html>
